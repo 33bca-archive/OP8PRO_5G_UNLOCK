@@ -126,6 +126,8 @@ $Header: //components/rel/mmcp.mpss/8.0/policyman/configurations/Carrier/OEM/No_
         <gw_bands  base="hardware" />
         <lte_bands base="hardware" />
         <tds_bands base="none" />
+        <nr5g_sa_bands base="hardware" />
+        <nr5g_nsa_bands base="hardware" />
       </rf_band_list>
 
       <!-- EU_others_bands -->
