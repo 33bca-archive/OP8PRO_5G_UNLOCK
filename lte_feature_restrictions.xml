@@ -65,10 +65,10 @@ $Header:  $
   </lte_feature>
 
   <lte_feature name="NR_DSS">
-    <all_of>
+    <any_of>
       <boolean_test name="carrier:dss_is_enabled" />
       <serving_plmn_in list="dss_plmns" />
-    </all_of>
+    </any_of>
   </lte_feature>
 
 </policy>
