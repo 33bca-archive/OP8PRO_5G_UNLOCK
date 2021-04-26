@@ -281,7 +281,7 @@ $Header: //components/rel/mmcp.mpss/8.0/policyman/configurations/Carrier/OEM/No_
       </rf_band_list>
 
       <rat_capability base="none" >
-            <include> G W T L C H</include> <!-- 20170608 liuweibin, open TDS for full rat -->
+            <include> G W T L C H 5G</include> <!-- 20170608 liuweibin, open TDS for full rat -->
       </rat_capability>
       <rf_bands_if list="rf_bands_default" />
 
