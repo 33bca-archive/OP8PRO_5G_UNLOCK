@@ -325,9 +325,9 @@ $Header: //components/rel/mmcp.mpss/8.0/policyman/configurations/Carrier/OEM/No_
   <!-- Continue setting the capabilities.
   -->
   <svc_mode> FULL </svc_mode>
-  <rat_order> L W T G C H </rat_order> <!-- 20170608 liuweibin, open TDS for full rat -->
+  <rat_order> 5G L W T G C H </rat_order> <!-- 20170608 liuweibin, open TDS for full rat -->
   <rat_capability base="none">
-    <include> G W L T C H </include> <!-- 20170608 liuweibin, open TDS for full rat -->
+    <include> G W L T C H 5G </include> <!-- 20170608 liuweibin, open TDS for full rat -->
   </rat_capability>
 
   <!-- RULE #3 -->
